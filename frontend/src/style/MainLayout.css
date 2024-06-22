@@ -1,0 +1,14 @@
+.main-content {
+    padding-top: 2rem; /* Space between navbar and main content */
+    padding-bottom: 2rem; /* Optional: Space above the footer */
+    min-height: 70vh; /* Maintain the original minimum height */
+}
+.navbar {
+    background-color: #3399ff; /* Blue background */
+    padding: 1rem; /* Padding for spacing */
+}
+.footer {
+    padding: 1rem; /* Padding for the footer */
+    background-color: #f5f5f5; /* Light gray background */
+    text-align: center; /* Center text */
+}

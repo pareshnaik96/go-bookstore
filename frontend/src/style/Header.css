@@ -1,0 +1,21 @@
+.header {
+    padding: 1rem; /* Padding for spacing */
+    background-color: #f5f5f5; /* Light gray background */
+    border-bottom: 1px solid #ddd; /* Border at the bottom */
+    padding: 0.5rem 1rem !important; /* Force padding to be reduced */
+    line-height: 0.5rem !important; /* Force lower line-height */
+}
+.header-content {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space elements at opposite ends */
+    align-items: center; /* Center content vertically */
+}
+.header-title {
+    font-size: 1.2rem; /* Slightly larger font for the title */
+    color: #333; /* Dark color for readability */
+}
+.header-cart {
+    color: #333; /* Dark color for the cart icon */
+    cursor: pointer; /* Indicates it's clickable */
+    margin-right: 20px;
+}

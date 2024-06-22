@@ -1,0 +1,71 @@
+.book-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    justify-content: center; 
+}
+.book-card {
+    border: 1px solid #ddd;
+    padding: 1rem; 
+    background-color: #fff; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 250px;
+    height: 280px; 
+    margin-bottom: 1rem; 
+}
+.book-card:hover {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15); 
+}
+.book-title {
+    font-size: 1.2rem; 
+    color: #333;
+    word-wrap: break-word; 
+}
+.book-author,
+.book-publication,
+.book-price {
+    color: #555; 
+    margin: 0.5rem 0; 
+}
+.card-buttons {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: auto; /* Push buttons to the bottom */
+}
+.view-button {
+    padding: 0.5rem 1rem; 
+    background-color: #3399ff;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-right: 5px;
+}
+
+.add-button {
+    padding: 0.5rem 1rem; 
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.view-button:hover {
+    background-color: #007acc; 
+}
+
+.add-button:hover {
+    background-color: #e65c00;
+}
+
+
+

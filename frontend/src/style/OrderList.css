@@ -1,0 +1,57 @@
+.order-list-container {
+    margin: 20px;
+}
+
+.order-list-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-item {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    /* transition: transform 0.2s ease-in-out; */
+}
+
+.order-item:hover {
+    transform: translateY(-5px);
+}
+
+.order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-id {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.order-date {
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.order-books {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .order-list {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,18 @@
+.order-book-card {
+    min-width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-book-card .book-name,
+.order-book-card .book-author,
+.order-book-card .book-publication,
+.order-book-card .book-price
+ {
+    margin-bottom: 8px;
+}
+
